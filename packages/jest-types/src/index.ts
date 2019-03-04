@@ -6,10 +6,7 @@
  */
 
 import * as Config from './Config';
-import * as Console from './Console';
-import * as SourceMaps from './SourceMaps';
 import * as TestResult from './TestResult';
-import * as Mocks from './Mocks';
-import * as Transform from './Transform';
+import * as Global from './Global';
 
-export {Config, Console, SourceMaps, TestResult, Mocks, Transform};
+export {Config, TestResult, Global};
